@@ -1,0 +1,29 @@
+.fixednav {
+  display: flex;
+  flex-direction: row;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+}
+
+.leftnav {
+  line-height: 60px;
+  flex: 10;
+}
+
+.leftnav>a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+}
+
+.rightnav {
+  line-height: 60px;
+  padding: 0px 5px;
+}
+
+.rightnav>a {
+  text-decoration: none;
+  color: yellow;
+}
