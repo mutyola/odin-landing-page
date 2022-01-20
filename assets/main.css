@@ -17,6 +17,10 @@
   color: white;
   padding: 0px 10px;
 }
+.leftnav>a img {
+  height: 50px;
+  width: 50px;
+}
 
 .rightnav {
   line-height: 60px;
